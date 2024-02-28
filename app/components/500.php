@@ -1,4 +1,4 @@
-<h2>404 Page</h2>
+<h2>500 Page</h2>
 
 <?php
 if (isset($e) && $e instanceof Exception) {
