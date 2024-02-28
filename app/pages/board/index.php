@@ -1,4 +1,8 @@
-<h2>Board List Page</h2>
+<?php declare(strict_types=1);
 
-<?php
-include COMPONENT_PATH . '/link.php'; ?>
+$data   = require APP_PATH . '/data/board.php';
+$paged  = max(1, (int)($_GET['paged'] ?? 1));
+$rpp    = (int)($_GET['rpp'] ?? 10);
+$result = array_slice($data, (int) (($paged - 1) * $rpp), $rpp);
+
+echo json_encode($result, JSON_PRETTY_PRINT);

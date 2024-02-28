@@ -1,4 +1,3 @@
-<h2>Index Page</h2>
+<?php declare(strict_types=1);
 
-<?php
-include COMPONENT_PATH . '/link.php'; ?>
+echo json_encode(['message' => 'Hello World'], JSON_PRETTY_PRINT);

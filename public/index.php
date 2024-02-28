@@ -1,11 +1,10 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 use Kreme201\FileBaseRouter\Dispatcher;
 
+header('Content-Type: application/json');
+
 define('APP_PATH', dirname(__DIR__) . '/app');
-define('COMPONENT_PATH', APP_PATH . '/components');
 
 require_once dirname(APP_PATH) . '/vendor/autoload.php';
 
@@ -18,9 +17,15 @@ if (false !== $template && file_exists($template)) {
         include $template;
     } catch (Exception $e) {
         http_response_code(500);
-        include COMPONENT_PATH . '/500.php';
+        echo json_encode([
+            'error'   => true,
+            'message' => $e->getMessage(),
+        ], JSON_PRETTY_PRINT);
     }
 } else {
     http_response_code(404);
-    include COMPONENT_PATH . '/404.php';
+    echo json_encode([
+        'error'   => true,
+        'message' => 'No route was found matching the URL and request method.',
+    ], JSON_PRETTY_PRINT);
 }
