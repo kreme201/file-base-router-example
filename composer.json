@@ -1,0 +1,7 @@
+{
+  "name": "kreme201/file-base-router-example",
+  "description": "File based router for PHP",
+  "require": {
+    "kreme201/file-base-router": "^0.1.1"
+  }
+}

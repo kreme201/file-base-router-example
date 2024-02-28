@@ -1,0 +1,8 @@
+# Composer
+/vendor/
+
+# IntelliJ
+.idea/
+
+# VSCode
+.vscode/

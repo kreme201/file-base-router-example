@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e3027ab5e7d92c80e572614773610d21",
+    "packages": [
+        {
+            "name": "kreme201/file-base-router",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kreme201/file-base-router.git",
+                "reference": "dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kreme201/file-base-router/zipball/dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9",
+                "reference": "dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kreme201\\FileBaseRouter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "kreme201",
+                    "email": "kreme201@gmail.com"
+                }
+            ],
+            "description": "File based router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/kreme201/file-base-router/issues",
+                "source": "https://github.com/kreme201/file-base-router/tree/0.1.1"
+            },
+            "time": "2024-02-28T03:37:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
