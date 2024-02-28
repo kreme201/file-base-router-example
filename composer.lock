@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3027ab5e7d92c80e572614773610d21",
+    "content-hash": "62bc50902a4754da05e4650dccd5a64c",
     "packages": [
         {
             "name": "kreme201/file-base-router",
-            "version": "0.1.1",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kreme201/file-base-router.git",
-                "reference": "dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9"
+                "reference": "44594e2b73f2796f9ba44e24dc07b4bc85d93429"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kreme201/file-base-router/zipball/dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9",
-                "reference": "dd14bf901f0b0e932fdd9ac71eba581cb48ce4e9",
+                "url": "https://api.github.com/repos/kreme201/file-base-router/zipball/44594e2b73f2796f9ba44e24dc07b4bc85d93429",
+                "reference": "44594e2b73f2796f9ba44e24dc07b4bc85d93429",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kreme201/file-base-router/issues",
-                "source": "https://github.com/kreme201/file-base-router/tree/0.1.1"
+                "source": "https://github.com/kreme201/file-base-router/tree/0.1.0"
             },
-            "time": "2024-02-28T03:37:51+00:00"
+            "time": "2024-02-28T09:00:38+00:00"
         }
     ],
     "packages-dev": [],
